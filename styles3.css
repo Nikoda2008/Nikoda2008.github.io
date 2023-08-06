@@ -1,0 +1,315 @@
+
+body {
+	
+		 font-family: "San Francisco", Arial, sans-serif;
+         cursor: pointer;
+		 background-image: url('fondo1.jpg');
+		 background-repeat: repeat;
+    }
+
+
+
+
+
+.container {
+      display: flex;
+    }
+
+.container:hover {
+	
+	color:#E3AD0A;
+	
+	}
+
+A:link {color:"white" text-decoration: none }
+A:hover { color: #E3AD0A;   }
+A:visited {color: #8D8C89;   text-decoration: none }
+	*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	
+	a{text-decoration: none !important;outline: none !important;}
+	
+    .item {
+      flex: 1;
+      height: 30px;
+	  font-size: 20px;
+      margin: 10px;
+	  text-align:center;
+	  text-decoration:none;
+	  color: #7E7E7D;
+	  
+	  border-radius: 194px 194px 194px 194px;
+-moz-border-radius: 194px 194px 194px 194px;
+-webkit-border-radius: 194px 194px 194px 194px;
+border: 0px solid #000000;
+    }
+	
+	.item:hover {
+  color: #C7C708;
+}
+	
+	
+
+.image-container {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+#logop {
+  width: 10%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  
+
+border-radius : 145px 145px 145px 145px;
+width : 200px;
+height : 200px;
+
+float: left;
+}
+
+/*			galeria de fotos	*/
+
+
+ .floatWapp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:200px;
+  right:20px;
+    
+  
+
+  border-radius:60px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-floatWapp{
+  margin-top:16px;
+}
+
+#bw {
+	
+	width: 80px;
+  height: auto;
+
+ 
+ -webkit-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+-moz-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+border-radius: 60px;
+
+}
+
+#bw:hover {filter: opacity(.5);}
+
+
+
+
+#panel {
+	position:relative;
+	bottom:20%;
+	float:left;
+	color: white;
+	width:90%;
+	height:auto;
+	
+	
+	
+	
+	
+	}
+	
+	
+	.aliados {
+		
+		width:30%;
+		height: auto;
+		margin-left: 10px;
+	
+	
+		
+		
+		}
+	
+	
+	
+	
+	 
+	#pie {
+  width: 100%;
+  border-collapse: collapse;
+  color:#7C7C79;
+  font-family: "San Francisco", Arial, sans-serif;
+  
+}
+  
+
+
+td.log {
+	width:50%;
+  text-align: left;
+}
+
+
+
+
+#emmatxt {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  opacity:80;
+  border-radius: 124px 124px 124px 124px;
+-moz-border-radius: 124px 124px 124px 124px;
+-webkit-border-radius: 124px 124px 124px 124px;
+border: 0px solid #000000;
+
+}
+
+
+
+
+#lineafinal {
+	
+	
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+	
+}
+	
+	
+	
+footer {
+      background-color: #black;
+      padding: 10px;
+      text-align: center;
+	  color:white;
+	  font-family: "San Francisco", Arial, sans-serif;
+	  bottom:15px;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+/* BOTON AGENDAR CITA*/
+
+.ba {
+	
+	
+	width: 60px;
+  height: auto;
+  position:fixed;
+  left: 10px;
+  bottom: 400px;
+  opacity:0,5;
+
+}
+
+#ba1 {
+	opacity:0.5;
+	width:60px;
+	height:auto;
+	opacity:0,5;
+ 
+ -webkit-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+-moz-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+border-radius: 60px;
+}
+
+
+/* titulo de alidados*/
+
+
+
+#alidadostitulo 	{
+	
+
+  background-color: rgb(89, 89, 90);
+  opacity: 0.5;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+	color:white;
+	padding-top:90px;
+	padding-bottom:100px;
+  padding-left: 10px;
+  border-radius: 87px 34px 34px 85px;
+  -moz-border-radius: 87px 34px 34px 85px;
+  -webkit-border-radius: 87px 34px 34px 85px;
+  border: 0px solid #000000;
+	
+	
+	
+}
+
+
+#quiero {
+	
+	font-family: "San Francisco", Arial, sans-serif;
+	font-size:20px;
+	color:#F5D20E;
+	padding-top:100px;
+	padding-left:400px;
+	
+	
+}
+
+
+
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+}
+
+.popup-content {
+	
+	color:white;
+   background-image: url('fondo1.jpg');
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#contenido {
+	
+	font-size:14px;
+}
+
+button {
+    cursor: pointer;
+	
+  background-color: #595854;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 103px 103px 103px 103px;
+-moz-border-radius: 103px 103px 103px 103px;
+-webkit-border-radius: 103px 103px 103px 103px;
+border: 4px solid #f5cc73;
+}
+
+

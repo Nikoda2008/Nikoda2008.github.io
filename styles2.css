@@ -1,0 +1,461 @@
+
+
+/*											 pagina de beneficios																*/
+
+
+
+body {
+		 font-family: "San Francisco", Arial, sans-serif;
+         cursor: pointer;
+		background-image: url('fondo1.jpg');
+  background-repeat: repeat;
+    }
+
+
+
+
+
+.container {
+      display: flex;
+    }
+
+.container:hover {
+	
+	color:#E3AD0A;
+	
+	}
+
+A:link {color:"white" text-decoration: none }
+A:hover { color: #E3AD0A;   }
+A:visited {color: #8D8C89;   text-decoration: none }
+	*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	
+	a{text-decoration: none !important;outline: none !important;}
+	
+    .item {
+      flex: 1;
+      height: 30px;
+	  font-size: 20px;
+      margin: 10px;
+	  text-align:center;
+	  text-decoration:none;
+	  color: #7E7E7D;
+	  
+	  border-radius: 194px 194px 194px 194px;
+-moz-border-radius: 194px 194px 194px 194px;
+-webkit-border-radius: 194px 194px 194px 194px;
+border: 0px solid #000000;
+    }
+	
+	.item:hover {
+  color: #C7C708;
+}
+	
+	
+	body, html {
+  margin: 0;
+  padding: 0;
+
+}
+
+.image-container {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+#logop {
+  width: 10%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  
+
+border-radius : 145px 145px 145px 145px;
+width : 200px;
+height : 200px;
+
+float: left;
+}
+
+/*			galeria de fotos	*/
+
+.carousel {
+  
+  overflow: hidden;
+  
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.level {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 1s ease-in-out;
+  padding: 40px;
+}
+
+.carousel:hover .level {
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+
+
+
+
+.title-container1 {
+      position: fixed;
+      top: 30%;
+      left: 5%;
+     
+      display: flex;
+      flex-direction: column;
+     margin-bottom: 300px;
+	  z-index:100;
+	  width: 100%;
+	 
+	 
+    }
+	
+	
+		
+	#title1 {
+
+  color: #ffffff;
+
+  font: normal 40px Varela Round, sans-serif;
+
+  height: 140px;
+
+  right: 3000px;
+
+  letter-spacing: 5px;
+
+  
+
+  text-transform: uppercase;
+
+  width: 100%;
+
+  animation: move linear 2000ms infinite;
+
+  z-index: 2;
+
+}
+
+/*Animación para rotar las sombras*/
+
+@keyframes move {
+
+  0% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+
+      -1px 1px 0 #13f1fc
+
+    ;
+
+  }
+
+  25% {
+
+    text-shadow:
+
+      -4px -4px 0 #13f1fc,
+
+      -3px -3px 0 #13f1fc,
+
+      -2px -2px 0 #13f1fc,
+
+      -1px -1px 0 #13f1fc,
+
+      4px 4px 0 #da0641,
+
+      3px 3px 0 #da0641,
+
+      2px 2px 0 #da0641,
+
+      1px 1px 0 #da0641
+
+    ;
+
+  }
+
+  50% {
+
+    text-shadow:
+
+      -4px 4px 0 #da0641,
+
+      -3px 3px 0 #da0641,
+
+      -2px 2px 0 #da0641,
+
+      -1px 1px 0 #da0641,
+
+      4px -4px 0 #13f1fc,
+
+      3px -3px 0 #13f1fc,
+
+      2px -2px 0 #13f1fc,
+
+      1px -1px 0 #13f1fc
+
+    ;
+
+  }
+
+  75% {
+
+    text-shadow:
+
+      4px 4px 0 #13f1fc,
+
+      3px 3px 0 #13f1fc,
+
+      2px 2px 0 #13f1fc,
+
+      1px 1px 0 #13f1fc,
+
+      -4px -4px 0 #da0641,
+
+      -3px -3px 0 #da0641,
+
+      -2px -2px 0 #da0641,
+
+      -1px -1px 0 #da0641
+
+    ;
+
+  }
+
+  100% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+      -1px 1px 0 #13f1fc
+
+    ;
+
+  }
+
+}
+
+		/*TEXTO Y BOTON PARA SER WEBCAMM*/
+		
+		
+		
+		
+		
+		#fondoboton  {
+			width:100%;
+			background-color:white;
+			
+			
+	}
+	
+	
+	.colored-text span {
+      display: inline-block;
+	   
+	  
+    }
+
+    .word1 {
+      color: black;
+    }
+
+    .word2 {
+      color: red;
+    }
+
+    .word3 {
+      color: black;
+    }
+	
+	.word4 {
+      color: red;
+    }
+	
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+	  COLOR: black;
+	  font-size:2em;
+	   
+	   font-family: "Georgia", serif;
+	  
+    }
+
+    .row:nth-child(1) {
+      background-color: #f2f2f2;
+    }
+
+    .row:nth-child(2) {
+      background-color: #eaeaea;
+    }
+
+    .button {
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: #E5A00B;
+      color: black;
+      border-radius: 20px;
+	  
+    }
+  
+  
+  #ft {
+	  
+	  
+  }
+  
+  .tt {
+	  
+	  width:300px;
+	  height:200px;
+	  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  /*PIE DE PAGINA*/
+  
+  
+  table {
+  width: 100%;
+  border-collapse: collapse;
+  color:#7C7C79;
+  
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#emmatxt {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+
+/*BOTON WHASAP*/
+
+
+ .floatWapp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:200px;
+  right:20px;
+    
+  
+
+  border-radius:60px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-floatWapp{
+  margin-top:16px;
+}
+
+#bw {
+	
+	width: 80px;
+  height: auto;
+
+ 
+ -webkit-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+-moz-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+border-radius: 60px;
+
+}
+
+#bw:hover {filter: opacity(.5);}
+
+
+
+
+
+/* BOTON AGENDAR CITA*/
+
+.ba {
+	
+	
+	width: 60px;
+  height: auto;
+  position:fixed;
+  left: 10px;
+  bottom: 400px;
+  opacity:0,5;
+
+}
+
+#ba1 {
+	opacity:0.5;
+	width:60px;
+	height:auto;
+	opacity:0,5;
+ 
+ -webkit-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+-moz-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+border-radius: 60px;
+}
+
+
+/* BOTON AGENDAR CITA*/
+
+
+#condiciones  {
+	
+	font-family: "San Francisco", Arial, sans-serif;
+	padding-top:150px;
+	color:black;
+	background-color:white;
+	padding: 100px 20px 10px 20px;
+	
+}

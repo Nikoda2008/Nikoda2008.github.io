@@ -1,0 +1,814 @@
+
+body {
+        
+		background-image: url('fondo1.jpg');
+  background-repeat: repeat;
+ 
+    }
+
+
+
+    #menu {
+      width: 100%;
+      height: 200px;
+      position:fixed;
+      z-index: 60;
+      padding-bottom: 20px;
+    }
+
+
+
+.container {
+    padding-top: 2x0px;
+      display: flex;
+	   font-family: "San Francisco", Arial, sans-serif;
+    }
+
+.container:hover {
+	
+	color:#E3AD0A;
+	
+	}
+
+A:link {color:"white" text-decoration: none }
+A:hover { color: #E3AD0A;   }
+A:visited {color: #8D8C89;   text-decoration: none }
+	*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	
+	a{text-decoration: none !important;outline: none !important;}
+	
+    .item {
+      flex: 1;
+      height: 30px;
+	  font-size: 20px;
+      margin: 10px;
+	  text-align:center;
+	  text-decoration:none;
+	  color: #7E7E7D;
+	  
+	  border-radius: 194px 194px 194px 194px;
+-moz-border-radius: 194px 194px 194px 194px;
+-webkit-border-radius: 194px 194px 194px 194px;
+border: 0px solid #000000;
+    }
+	
+	.item:hover {
+  color: #C7C708;
+}
+	
+	
+	body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.video-container {
+  position: relative;
+  top:200px;
+  left:5px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+
+/* Estilos para la galería */
+.galeria {
+  display: flex;
+  justify-content: center;
+}
+
+
+#llamado {
+  width: 100%;
+  background-image: url('cintagold.jpg');
+  background-repeat: no-repeat;
+  background-size: 2000px 80px;
+
+}
+
+  
+  
+ 
+#fila1 {
+	
+	font-family: "San Francisco", Arial, sans-serif;
+	font-size:40px;
+ color:#F9CA85;
+  padding: 20px;
+  text-align:right;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+}
+
+#fila2 {
+
+  padding: 20px;
+    color:#FAF8F5;
+  font-family: cursive;
+         font-family: "San Francisco", Arial, sans-serif;
+        
+        text-shadow: -2px 0px 4px rgba(0, 0, 0, 0.5);
+		font-size:30px;
+		
+		animation: brillar 2s linear infinite;
+}
+
+h2 {
+  color: #FDC210;
+}
+  
+/* Estilos para las columnas */
+.columnas {
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+}
+
+.columna {
+  flex-basis: 30%;
+  opacity: 0.8; /* 50% de opacidad */
+
+  padding: 30px;
+  background-color: lightgray;
+  margin: 10px;
+  font-size: 20px;
+  text-align: justify;
+  color: #7D7D7C;
+   width: 10%;
+  height: auto;
+  filter: blur(0.5px);
+  
+  border-radius: 61px 61px 61px 61px;
+-moz-border-radius: 61px 61px 61px 61px;
+-webkit-border-radius: 61px 61px 61px 61px;
+border: 0px solid #000000;
+}
+
+.logos {
+  
+   width: 10%;
+  height: auto;
+  border-radius: 60px;
+}
+
+#texto1 {
+  font-family: "San Francisco", Arial, sans-serif;
+  margin-left: 60px;
+  padding-left:10px;
+  flex-basis: 20%;
+  border-radius : 60px 25px 25px 25px;
+width : 300px;
+height : 430px;
+font-size:19px;
+text-align: justify;
+color:white;
+  background-image: url('chicadorada1.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index:80;
+  }
+  
+  #texto2 {
+  font-family: "San Francisco", Arial, sans-serif;
+  margin: 5px;
+  padding: 10px;
+  flex-basis: 20%;
+ text-align: justify;
+font-size:19px;
+border-radius : 60px 25px 25px 25px;
+width : 300px;
+height : 400px;
+color:white;
+
+ background-image: url('chicadorada2.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index:80;
+  
+  }
+  
+  #texto3 {
+	  font-size:19px;
+  font-family: "San Francisco", Arial, sans-serif;
+  
+  margin-right: 60px;
+  padding: 10px;
+  flex-basis: 20%;
+  border-radius : 60px 25px 25px 25px;
+width : 100px;
+height : 400px;
+  text-align: justify;
+  color:white;
+  
+   background-image: url('chicadorada3.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index:80;
+  
+  }
+
+	
+
+
+footer {
+      background-color: #black;
+      padding: 10px;
+      text-align: center;
+	  color:white;
+	  font-family: "San Francisco", Arial, sans-serif;
+    }
+	
+	.image-container {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+#logop {
+  width: 10%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  
+
+border-radius : 145px 145px 145px 145px;
+width : 200px;
+height : 200px;
+
+float: left;
+}
+ 
+ .floatWapp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:200px;
+  right:20px;
+    
+  
+
+  border-radius:60px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-floatWapp{
+  margin-top:16px;
+}
+
+#bw {
+	
+	width: 80px;
+  height: auto;
+
+ 
+ -webkit-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+-moz-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+border-radius: 60px;
+
+}
+
+#bw:hover {filter: opacity(.5);}
+
+
+
+.contenedor-columnas {
+  display: flex;
+z-index: 100;
+}
+
+.columna {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+
+  
+  
+  
+}
+
+.columna img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.columna a {
+  display: block;
+  margin-top: 10px;
+}
+ 
+
+	 
+	table {
+  width: 100%;
+  border-collapse: collapse;
+  color:#7C7C79;
+  font-family: "San Francisco", Arial, sans-serif;
+  
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#emmatxt {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  opacity:80;
+  border-radius: 124px 124px 124px 124px;
+-moz-border-radius: 124px 124px 124px 124px;
+-webkit-border-radius: 124px 124px 124px 124px;
+border: 0px solid #000000;
+
+}
+
+
+
+
+/*											 pagina de aliados																	*/
+
+
+
+/*											 pagina de beneficios																*/
+.carousel {
+  height: 400px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.level {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 1s ease-in-out;
+  padding: 40px;
+}
+
+.carousel:hover .level {
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.carousel {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+#galebene {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.title-container1 {
+      position: fixed;
+      top: 30%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+     margin-bottom: 300px;
+	  z-index:100;
+	 
+	 width: 100%;
+    }
+	
+	.tittle1 {
+		
+		
+		margin-bottom: 300px;
+		
+		}
+		
+		
+		.title-container2 {
+      position: fixed;
+      top: 85%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+     margin-bottom: 300px;
+	  z-index:100;
+	  width: 100%;
+	 
+    }
+	
+	
+		
+	#title2 {
+
+  color: #ffffff;
+
+  font: normal 40px Varela Round, sans-serif;
+
+  height: 140px;
+
+  right: 3000px;
+
+  letter-spacing: 5px;
+
+  
+
+  text-transform: uppercase;
+
+  width: 100%;
+
+  animation: move linear 2000ms infinite;
+
+  z-index: 2;
+
+}
+
+/*Animación para rotar las sombras*/
+
+@keyframes move {
+
+  0% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+
+      -1px 1px 0 #13f1fc
+
+    ;
+
+  }
+
+  25% {
+
+    text-shadow:
+
+      -4px -4px 0 #13f1fc,
+
+      -3px -3px 0 #13f1fc,
+
+      -2px -2px 0 #13f1fc,
+
+      -1px -1px 0 #13f1fc,
+
+      4px 4px 0 #da0641,
+
+      3px 3px 0 #da0641,
+
+      2px 2px 0 #da0641,
+
+      1px 1px 0 #da0641
+
+    ;
+
+  }
+
+  50% {
+
+    text-shadow:
+
+      -4px 4px 0 #da0641,
+
+      -3px 3px 0 #da0641,
+
+      -2px 2px 0 #da0641,
+
+      -1px 1px 0 #da0641,
+
+      4px -4px 0 #13f1fc,
+
+      3px -3px 0 #13f1fc,
+
+      2px -2px 0 #13f1fc,
+
+      1px -1px 0 #13f1fc
+
+    ;
+
+  }
+
+  75% {
+
+    text-shadow:
+
+      4px 4px 0 #13f1fc,
+
+      3px 3px 0 #13f1fc,
+
+      2px 2px 0 #13f1fc,
+
+      1px 1px 0 #13f1fc,
+
+      -4px -4px 0 #da0641,
+
+      -3px -3px 0 #da0641,
+
+      -2px -2px 0 #da0641,
+
+      -1px -1px 0 #da0641
+
+    ;
+
+  }
+
+  100% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+      -1px 1px 0 #13f1fc
+
+    ;
+
+  }
+
+}
+
+
+
+#title1 {
+
+  color: #ffffff;
+
+  font: normal 40px Varela Round, sans-serif;
+
+  height: 140px;
+
+  right: 3000px;
+
+  letter-spacing: 5px;
+
+  
+
+  text-transform: uppercase;
+
+  width: 100%;
+
+  animation: move linear 2000ms infinite;
+
+  z-index: 2;
+
+}
+
+/*Animación para rotar las sombras*/
+
+@keyframes move {
+
+  0% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+
+      -1px 1px 0 #13f1fc
+
+    ;
+
+  }
+
+  25% {
+
+    text-shadow:
+
+      -4px -4px 0 #13f1fc,
+
+      -3px -3px 0 #13f1fc,
+
+      -2px -2px 0 #13f1fc,
+
+      -1px -1px 0 #13f1fc,
+
+      4px 4px 0 #da0641,
+
+      3px 3px 0 #da0641,
+
+      2px 2px 0 #da0641,
+
+      1px 1px 0 #da0641
+
+    ;
+
+  }
+
+  50% {
+
+    text-shadow:
+
+      -4px 4px 0 #da0641,
+
+      -3px 3px 0 #da0641,
+
+      -2px 2px 0 #da0641,
+
+      -1px 1px 0 #da0641,
+
+      4px -4px 0 #13f1fc,
+
+      3px -3px 0 #13f1fc,
+
+      2px -2px 0 #13f1fc,
+
+      1px -1px 0 #13f1fc
+
+    ;
+
+  }
+
+  75% {
+
+    text-shadow:
+
+      4px 4px 0 #13f1fc,
+
+      3px 3px 0 #13f1fc,
+
+      2px 2px 0 #13f1fc,
+
+      1px 1px 0 #13f1fc,
+
+      -4px -4px 0 #da0641,
+
+      -3px -3px 0 #da0641,
+
+      -2px -2px 0 #da0641,
+
+      -1px -1px 0 #da0641
+
+    ;
+
+  }
+
+  100% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+      -1px 1px 0 #13f1fc
+
+    ;
+
+  }
+
+}
+
+
+#paginas {
+	
+	width:100%;
+	height:129px;
+	background-color:white;
+	
+	}
+	
+	.slider {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 12);
+}
+
+.slider .slide {
+    width: 100%;
+	
+}
+
+.slider .slide img {
+    width: 100%;
+	height:129px;
+}
+
+@keyframes  scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
+
+@keyframes brillar {
+  0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+  50% { text-shadow: 0 0 20px rgba(255, 255, 255, 1); }
+  100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+}
+
+
+
+
+
+/* BOTON AGENDAR CITA*/
+
+.ba {
+	
+	
+	width: 60px;
+  height: auto;
+  position:fixed;
+  left: 10px;
+  bottom: 350px;
+  opacity:0,5;
+
+}
+
+#ba1 {
+	opacity:0.5;
+	width:60px;
+	height:auto;
+	opacity:0,5;
+ 
+
+ -webkit-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+-moz-box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+box-shadow: -24px 10px 42px 0px rgba(119,143,125,1);
+border-radius: 60px;
+}
+
